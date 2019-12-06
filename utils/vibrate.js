@@ -1,3 +1,3 @@
 import {Vibration} from 'react-native'
-
-export default () => Vibration.vibrate([500, 500, 500])
+const PATTERN = [1000, 2000, 3000];
+export default () => Vibration.vibrate(PATTERN)

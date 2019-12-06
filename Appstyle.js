@@ -5,13 +5,15 @@ export const styles = StyleSheet.create({
         marginTop:30,
         fontSize: 50,
         padding: 10,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'blue',
     },
     wording:{
         marginTop:10,
         fontSize: 35,
         padding: 10,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'blue',
 
     },
     timer:{
